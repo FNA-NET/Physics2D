@@ -1,6 +1,6 @@
 using System;
 
-namespace Physics2D.Extensions.DebugView
+namespace Physics2D.DebugViews
 {
     [Flags]
     public enum DebugViewFlags

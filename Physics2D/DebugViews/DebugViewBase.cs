@@ -7,7 +7,7 @@ using Physics2D.Dynamics;
 using Physics2D.Shared;
 using Microsoft.Xna.Framework;
 
-namespace Physics2D.Extensions.DebugView
+namespace Physics2D.DebugViews
 {
     /// <summary>Implement and register this class with a World to provide debug drawing of physics entities in your game.</summary>
     public abstract class DebugViewBase
