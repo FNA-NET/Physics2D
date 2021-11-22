@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.UnitTests", "Phys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Benchmarks", "Physics2D.Benchmarks\Physics2D.Benchmarks.csproj", "{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Samples.HelloWorld", "Physics2D.Samples.HelloWorld\Physics2D.Samples.HelloWorld.csproj", "{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Samples.Testbed", "Physics2D.Samples.Testbed\Physics2D.Samples.Testbed.csproj", "{5FC45127-585C-4385-99F5-560E5C06AD74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC45127-585C-4385-99F5-560E5C06AD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC45127-585C-4385-99F5-560E5C06AD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC45127-585C-4385-99F5-560E5C06AD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC45127-585C-4385-99F5-560E5C06AD74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
