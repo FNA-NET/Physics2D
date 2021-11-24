@@ -2,7 +2,22 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <BaseOutputPath>..\Artifacts</BaseOutputPath>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageProjectUrl>https://github.com/FNA-NET/Physics2D</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FNA-NET/Physics2D</RepositoryUrl>
+    <Authors>FNA-NET Team</Authors>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Description>Physics2D is 2D physics engine for FNA.NET only. It is based on the VelcroPhysics project, which is Farseer Physics formerly.</Description>
+    <PackageTags>physics2d;box2d;xna;</PackageTags>
+    <PackageId>Physics2D</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FNA.NET" Version="1.0.0.30-develop" />
