@@ -1,4 +1,5 @@
 # Physics2D
+[![Nuget](https://img.shields.io/nuget/vpre/Physics2D)](https://www.nuget.org/packages/Physics2D/)
 
 Physics2D is 2D physics engine for [FNA.NET](https://github.com/FNA-NET/FNA) only. It is based on the [VelcroPhysics](https://github.com/Genbox/VelcroPhysics) project, which is Farseer Physics formerly.
 
