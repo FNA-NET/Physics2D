@@ -23,6 +23,10 @@ jobs:
       - name: Restore cake tool
         run: dotnet tool restore
 
+      - name: Build
+        run: |
+          dotnet cake --build-target=BuildAll
+
       - name: Pack
         run: |
           dotnet cake --build-target=Pack
