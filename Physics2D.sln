@@ -1,25 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D", "Physics2D\Physics2D.csproj", "{2053BCBE-820B-4B73-AA3F-A13EEC48DBAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics2D", "Physics2D\Physics2D.csproj", "{2053BCBE-820B-4B73-AA3F-A13EEC48DBAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.UnitTests", "Physics2D.UnitTests\Physics2D.UnitTests.csproj", "{17A13928-9DFA-4AF0-86E1-0BEA8C1633C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics2D.UnitTests", "Physics2D.UnitTests\Physics2D.UnitTests.csproj", "{17A13928-9DFA-4AF0-86E1-0BEA8C1633C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Benchmarks", "Physics2D.Benchmarks\Physics2D.Benchmarks.csproj", "{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics2D.Benchmarks", "Physics2D.Benchmarks\Physics2D.Benchmarks.csproj", "{0606FE1C-3567-4918-8C68-E3A7AA4BB37D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Samples.HelloWorld", "Physics2D.Samples.HelloWorld\Physics2D.Samples.HelloWorld.csproj", "{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics2D.Samples.HelloWorld", "Physics2D.Samples.HelloWorld\Physics2D.Samples.HelloWorld.csproj", "{CF26FFFE-9FD9-4A5D-896E-AFF637180EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics2D.Samples.Testbed", "Physics2D.Samples.Testbed\Physics2D.Samples.Testbed.csproj", "{5FC45127-585C-4385-99F5-560E5C06AD74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Physics2D.Samples.Testbed", "Physics2D.Samples.Testbed\Physics2D.Samples.Testbed.csproj", "{5FC45127-585C-4385-99F5-560E5C06AD74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidGame1", "AndroidGame1\AndroidGame1.csproj", "{15065D8C-7DE4-4729-A505-C0395878494B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2053BCBE-820B-4B73-AA3F-A13EEC48DBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +41,16 @@ Global
 		{5FC45127-585C-4385-99F5-560E5C06AD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC45127-585C-4385-99F5-560E5C06AD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC45127-585C-4385-99F5-560E5C06AD74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15065D8C-7DE4-4729-A505-C0395878494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15065D8C-7DE4-4729-A505-C0395878494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15065D8C-7DE4-4729-A505-C0395878494B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15065D8C-7DE4-4729-A505-C0395878494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15065D8C-7DE4-4729-A505-C0395878494B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8285AF7C-E56E-4F8A-A0F7-2A3A6577672B}
 	EndGlobalSection
 EndGlobal
