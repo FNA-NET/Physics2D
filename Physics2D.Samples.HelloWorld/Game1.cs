@@ -64,7 +64,7 @@ namespace Physics2D.Samples.HelloWorld
             _screenCenter = new Vector2(_graphics.GraphicsDevice.Viewport.Width / 2f, _graphics.GraphicsDevice.Viewport.Height / 2f);
             _batch = new SpriteBatch(_graphics.GraphicsDevice);
 
-            _font = Content.Load<SpriteFont>("font");
+            _font = Content.Load<SpriteFont>("Font");
 
             // Load sprites
             _circleSprite = Content.Load<Texture2D>("CircleSprite"); //  96px x 96px => 1.5m x 1.5m
