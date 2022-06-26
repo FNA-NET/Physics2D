@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FNA.NET" Version="1.0.0.69-develop" />
+    <PackageReference Include="FNA.NET" Version="1.0.0.76-develop" />
   </ItemGroup>
 
 </Project>
